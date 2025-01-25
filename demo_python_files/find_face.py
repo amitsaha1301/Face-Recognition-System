@@ -2,6 +2,7 @@ import sys
 import dlib
 from skimage import io
 
+
 # Take the image file name from the command line
 file_name = sys.argv[1]
 
