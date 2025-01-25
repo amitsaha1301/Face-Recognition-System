@@ -5,7 +5,6 @@ import pickle
 import numpy as np
 import pandas as pd
 
-
 def _get_training_dirs(training_dir_path):
     return [x[0] for x in os.walk(training_dir_path)][1:]
 
