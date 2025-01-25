@@ -15,7 +15,6 @@ def get_prediction_images(prediction_dir):
 
     return l
 
-
 fname = 'classifier.pkl'
 prediction_dir = './test-images'
 
