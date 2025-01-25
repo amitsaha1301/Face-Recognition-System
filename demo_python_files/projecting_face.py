@@ -7,6 +7,7 @@ import openface
 # http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 predictor_model = "C:/Users/Amit Saha/Desktop/PROJECT/model/shape_predictor_68_face_landmarks.dat"
 
+
 # Take the image file name from the command line
 file_name = sys.argv[1]
 
