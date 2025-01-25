@@ -21,6 +21,7 @@ else:
     print('\x1b[0;37;41m' + '{} does not exist'.format(labels_fName) + '\x1b[0m')
     quit()
 
+
 # Read the dataframe into a numpy array
 # shuffle the dataset
 full_data = np.array(df.astype(float).values.tolist())
