@@ -10,7 +10,6 @@ pose_predictor = dlib.shape_predictor(predictor_model)
 face_recognition_model = './models/dlib_face_recognition_resnet_model_v1.dat'
 face_encoder = dlib.face_recognition_model_v1(face_recognition_model)
 
-
 def _rect_to_tuple(rect):
     """
     Convert a dlib 'rect' object to a plain tuple in (top, right, bottom, left) order
